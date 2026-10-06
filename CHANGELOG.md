@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026.04.080 - 06/10/2026 - Corrige ícone da janela no Linux/WSL
+
+- Mantém o ícone PNG da janela no Tkinter Linux/WSLg sem aplicar o formato ICO do Windows.
+
 ## 2026.04.079 - 06/10/2026 - Tkinter incluído no bundle Flatpak
 
 - Incluídos Tcl/Tk e o módulo Tkinter no pacote Linux para permitir a abertura da interface gráfica dentro do sandbox Flatpak.

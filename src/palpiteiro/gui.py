@@ -207,11 +207,15 @@ class PalpiteiroGUI:
         except tk.TclError:
             self._window_icon = None
 
-        try:
-            if ico_path.exists():
-                self.root.iconbitmap(str(ico_path))
-        except tk.TclError:
-            pass
+        # Tk on Linux/WSLg does not use Windows ICO files for the window
+        # decoration; calling iconbitmap() there can replace iconphoto() with
+        # the generic window icon. Keep the ICO path for native Windows only.
+        if sys.platform == "win32":
+            try:
+                if ico_path.exists():
+                    self.root.iconbitmap(str(ico_path))
+            except tk.TclError:
+                pass
 
     def _show_progress_window(self) -> None:
         if self._progress_window is not None and self._progress_window.winfo_exists():
