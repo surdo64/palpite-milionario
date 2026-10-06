@@ -1,3 +1,3 @@
 """Pacote principal do projeto Palpite Milionario."""
 
-__version__ = "2026.04.078"
+__version__ = "2026.04.079"

@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026.04.079 - 06/10/2026 - Tkinter incluído no bundle Flatpak
+
+- Incluídos Tcl/Tk e o módulo Tkinter no pacote Linux para permitir a abertura da interface gráfica dentro do sandbox Flatpak.
+- Mantido o restante do aplicativo sem alteração funcional.
+
 ## 2026.04.078 - 06/10/2026 - Linguagem recreativa e pacote Flatpak atualizado
 
 - Esclarecido que o aplicativo gera combinações para estudo e entretenimento, sem realizar apostas ou movimentar dinheiro.

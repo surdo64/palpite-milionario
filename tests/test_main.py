@@ -8,7 +8,7 @@ from palpiteiro.main import main
 
 
 def test_versao_segue_formato_esperado() -> None:
-    assert __version__ == "2026.04.078"
+    assert __version__ == "2026.04.079"
 
 
 def test_catalogo_contem_todas_as_loterias_suportadas() -> None:

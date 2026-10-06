@@ -1,6 +1,6 @@
 [project]
 name = "palpite-milionario"
-version = "2026.04.078"
+version = "2026.04.079"
 requires-python = ">=3.12"
 dependencies = [
     "playwright>=1.63.0",
