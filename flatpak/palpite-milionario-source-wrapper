@@ -1,0 +1,2 @@
+#!/bin/sh
+exec python3 /app/lib/python3.13/site-packages/palpiteiro/__main__.py "$@"
