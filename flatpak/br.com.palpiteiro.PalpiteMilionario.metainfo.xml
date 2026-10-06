@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>br.com.palpiteiro.PalpiteMilionario</id>
+  <name>Palpite Milionário</name>
+  <developer>
+    <name>Palpiteiro</name>
+  </developer>
+  <summary>Gerador de combinações para estudo e entretenimento</summary>
+  <description>
+    <p>Gere combinações numéricas para estudo e entretenimento, consulte históricos e compare resultados oficiais. O aplicativo não realiza apostas nem movimenta dinheiro.</p>
+  </description>
+  <launchable type="desktop-id">br.com.palpiteiro.PalpiteMilionario.desktop</launchable>
+  <provides><binary>palpite-milionario</binary></provides>
+  <content_rating type="oars-1.1"/>
+  <releases><release version="2026.04.078" date="2026-10-06"/></releases>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <url type="homepage">https://www.loteriasonline.caixa.gov.br</url>
+</component>

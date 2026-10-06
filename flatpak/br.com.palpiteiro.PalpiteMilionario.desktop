@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Palpite Milionário
+Comment=Gerador de palpites para loterias brasileiras
+Exec=palpite-milionario
+Icon=br.com.palpiteiro.PalpiteMilionario
+Terminal=false
+Type=Application
+Categories=Utility;Game;
+Keywords=loteria;palpite;mega-sena;
+StartupWMClass=Palpite Milionário

@@ -1,0 +1,23 @@
+.venv/
+.pytest_cache/
+.flatpak-builder/
+build/
+app_compilado/
+*.flatpak
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Artefatos temporários criados por comandos de integração WSL/Windows.
+if
+return
+chromium-browser,
+chromium,
+google-chrome-stable,
+google-chrome,
+microsoft-edge-stable,
+microsoft-edge,
+Localiza
