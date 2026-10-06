@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>br.com.palpiteiro.PalpiteMilionario</id>
+  <id>io.github.surdo64.palpite-milionario</id>
   <name>Palpite Milionário</name>
   <developer>
     <name>Palpiteiro</name>
@@ -9,7 +9,7 @@
   <description>
     <p>Gere combinações numéricas para estudo e entretenimento, consulte históricos e compare resultados oficiais. O aplicativo não realiza apostas nem movimenta dinheiro.</p>
   </description>
-  <launchable type="desktop-id">br.com.palpiteiro.PalpiteMilionario.desktop</launchable>
+  <launchable type="desktop-id">io.github.surdo64.palpite-milionario.desktop</launchable>
   <provides><binary>palpite-milionario</binary></provides>
   <content_rating type="oars-1.1"/>
   <releases><release version="2026.04.078" date="2026-10-06"/></releases>

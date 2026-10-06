@@ -2,7 +2,7 @@
 Name=Palpite Milionário
 Comment=Gerador de palpites para loterias brasileiras
 Exec=palpite-milionario
-Icon=br.com.palpiteiro.PalpiteMilionario
+Icon=io.github.surdo64.palpite-milionario
 Terminal=false
 Type=Application
 Categories=Utility;Game;

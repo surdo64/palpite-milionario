@@ -61,15 +61,15 @@ O resultado é uma distribuição Linux x86_64 em diretório. Mantenha a pasta `
 
 ## Release Flatpak — Opção 2
 
-O manifesto está em `flatpak/br.com.palpiteiro.PalpiteMilionario.yml`. Com `flatpak` e `flatpak-builder` instalados, execute no Ubuntu/WSL:
+O manifesto está em `flatpak/io.github.surdo64.palpite-milionario.yml`. Com `flatpak` e `flatpak-builder` instalados, execute no Ubuntu/WSL:
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak-builder --user --install --force-clean build/flatpak flatpak/br.com.palpiteiro.PalpiteMilionario.yml
-flatpak run br.com.palpiteiro.PalpiteMilionario
+flatpak-builder --user --install --force-clean build/flatpak flatpak/io.github.surdo64.palpite-milionario.yml
+flatpak run io.github.surdo64.palpite-milionario
 ```
 
-O manifesto usa somente sockets gráficos, acesso ao diretório de dados XDG do aplicativo e o portal desktop. A submissão ao Flathub exige revisão posterior de licença, identidade, screenshots, metadados e dependências; esta Opção 2 local não publica externamente.
+O manifesto usa somente os sockets gráficos necessários ao Tkinter. A submissão ao Flathub exige revisão posterior de licença, identidade, screenshots, metadados e dependências; esta Opção 2 local não publica externamente.
 
 ## Dados e recuperação
 
