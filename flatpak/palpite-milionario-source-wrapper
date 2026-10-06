@@ -1,3 +1,6 @@
 #!/bin/sh
 export DISPLAY="${DISPLAY:-:0}"
+if [ -S /mnt/wslg/.X11-unix/X0 ] && [ ! -e /tmp/.X11-unix/X0 ]; then
+    ln -sf /mnt/wslg/.X11-unix/X0 /tmp/.X11-unix/X0
+fi
 exec python3 /app/lib/python3.13/site-packages/palpiteiro/__main__.py "$@"
